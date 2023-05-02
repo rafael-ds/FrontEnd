@@ -1,0 +1,32 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html{
+    background-color: white;
+    border: solid 1px blue;
+    height: 99.7%;
+    width: auto
+
+}
+
+body{
+    border: solid 1px red;
+
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.descricao, .formulario{
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid yellow 1px;
+}
