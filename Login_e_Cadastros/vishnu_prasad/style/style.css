@@ -28,5 +28,37 @@ body{
     justify-content: center;
     align-items: center;
 
-    border: solid yellow 1px;
+}
+
+.descricao{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    background-color: #F3F5F9;
+    padding: 25px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.marcacao{
+    border: solid red 1px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.marcacao{
+    border: solid 6px #3E39FF;
+    border-radius: 5px;
+    width: 4px;
+    height: 4px;
+    
+}
+
+.texto{
+    border: solid red 1px;
+    
 }
