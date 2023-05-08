@@ -30,8 +30,6 @@ body{
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
     width: 50%;
 
 }
@@ -71,7 +69,7 @@ body{
 
 .freela p{
     font-size: .8em;
-    color: #666769;
+    color: #838385;
     margin-bottom: 30px;
     
 }
@@ -84,6 +82,7 @@ body{
     align-items: center;
     color: white;
 
+    margin-top: 80px;
     
 }
 
@@ -138,7 +137,7 @@ body{
 }
 
 .card .slider p:nth-child(1){
-    border: solid blue 4px;
+    border: solid #3E39FF 4px;
     margin: 5px;
 
     border-radius: 50%;
@@ -149,4 +148,70 @@ body{
     margin: 5px;
 
     border-radius: 50%;
+}
+
+/* Formulario */
+
+.formulario .iniciar, .form, .login{
+
+    margin-top: 5px;
+    margin: 30px;
+    
+}
+
+.formulario .iniciar p{
+    color: #838385;
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+.formulario .form form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Labels */
+.formulario .form label{
+    font-size: .8em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #838385;
+}
+
+/* Inputs */
+.formulario .form input{
+    border: solid #8383856c 1px;
+    padding: 6px;
+    border-radius: 5px;
+
+    margin-bottom: 15px;
+}
+
+/* Button */
+.formulario .form button{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #3E39FF;
+    cursor: pointer;
+    color: white;
+
+    border-radius: 10px;
+}
+
+/* Login */
+.formulario .login p{
+    text-align: center;
+    font-size: .8em;
+    color: #838385;
+}
+
+.formulario .login p a{
+    text-decoration: none;
+    color: #3E39FF;
+}
+
+.formulario .login p a:visited{
+    text-decoration: none;
+    color: #090735;
 }
