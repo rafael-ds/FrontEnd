@@ -83,10 +83,17 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
+
     
 }
 
 .conteudo{
+    background-image: url(../img/aspas.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position-y: -10px;
+    background-position-x: 17px;
+
     padding: 20px;
     border-radius: 8px;
     background-color: #2D3345;
@@ -117,8 +124,29 @@ body{
 
 .desc p{
     font-weight: 800;
+    font-size: .7em;
     margin-bottom: 0;
 }
 .desc span{
-    font-size: .7em;
+    font-size: .6em;
+    color: #8d8e8f;
+}
+
+.card .slider{
+    display: flex;
+    padding: 10px;
+}
+
+.card .slider p:nth-child(1){
+    border: solid blue 4px;
+    margin: 5px;
+
+    border-radius: 50%;
+}
+
+.card .slider p{
+    border: solid #CDCED4 4px;
+    margin: 5px;
+
+    border-radius: 50%;
 }
